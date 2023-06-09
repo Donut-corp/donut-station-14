@@ -5,7 +5,7 @@
   playTimeTracker: JobBartender
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # SS220-RoleTime
+      time: 3600 
   startingGear: BartenderGear
   icon: "Bartender"
   supervisors: job-supervisors-hop

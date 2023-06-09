@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 84000 # SS220-RoleTime
+      time: 84000 
   weight: 10
   startingGear: HoSGear
   icon: "HeadOfSecurity"

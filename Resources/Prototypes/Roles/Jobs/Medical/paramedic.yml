@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 9000 # SS220-RoleTime
+      time: 9000 
   startingGear: ParamedicGear
   icon: "Paramedic"
   supervisors: job-supervisors-cmo

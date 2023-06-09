@@ -5,7 +5,7 @@
   playTimeTracker: JobBotanist
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 10800 # SS220-RoleTime
+      time: 10800 
   startingGear: BotanistGear
   icon: "Botanist"
   supervisors: job-supervisors-hop

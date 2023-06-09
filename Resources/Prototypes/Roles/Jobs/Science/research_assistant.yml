@@ -1,11 +1,11 @@
-﻿- type: job
+- type: job
   id: ResearchAssistant
   name: job-name-research-assistant
   description: job-description-research-assistant
   playTimeTracker: JobResearchAssistant
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # SS220-RoleTime
+      time: 3600 
   startingGear: ResearchAssistantGear
   icon: "ResearchAssistant"
   supervisors: job-supervisors-rd

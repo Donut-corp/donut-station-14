@@ -4,7 +4,7 @@
   playTimeTracker: JobIAA
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 18000 # SS220-RoleTime
+      time: 18000 
   startingGear: IAAGear
   icon: "IAA"
   supervisors: job-supervisors-centcom

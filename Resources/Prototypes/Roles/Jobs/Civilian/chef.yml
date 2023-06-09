@@ -5,7 +5,7 @@
   playTimeTracker: JobChef
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # SS220-RoleTime
+      time: 3600 
   startingGear: ChefGear
   icon: "Chef"
   supervisors: job-supervisors-hop
