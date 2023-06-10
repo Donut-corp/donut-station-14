@@ -342,8 +342,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesKravMaga
-  name: krav gloves
-  description: These gloves allow their wearers to hit the floor, lung and throat with professional dignity.
+  name: Крав Мага
+  description: Эти перчатки позволяют их владельцам сбивать с ног, а также ударять по легким и горлу опонента профессионально.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/krav.rsi
@@ -359,7 +359,7 @@
     animation: WeaponArcFist
   - type: Fiber
     fiberMaterial: fibers-leather
-    fiberColor: fibers-blue
+    fiberColor: fibers-red
   - type: FingerprintMask
   - type: StaticPrice
     price: 3500

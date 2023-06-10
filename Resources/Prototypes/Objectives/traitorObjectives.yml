@@ -1,4 +1,4 @@
-﻿- type: objective
+- type: objective
   id: CaptainIDStealObjective
   issuer: syndicate
   difficultyOverride: 2.75
@@ -236,3 +236,19 @@
   conditions:
     - !type:RandomTraitorProgressCondition {}
   canBeDuplicate: true
+
+- type: objective
+  id: KravMagaStealObjective
+  issuer: syndicate
+  difficultyOverride: 2.75
+  requirements:
+    - !type:TraitorRequirement {}
+    - !type:IncompatibleConditionsRequirement
+      conditions:
+        - DieCondition
+    - !type:NotRoleRequirement
+      roleId: Warden
+  conditions:
+    - !type:StealCondition
+      prototype: ClothingHandsGlovesKravMaga
+      owner: job-name-warden
