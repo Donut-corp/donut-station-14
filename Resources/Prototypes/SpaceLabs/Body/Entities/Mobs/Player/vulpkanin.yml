@@ -1,0 +1,41 @@
+- type: entity
+  save: false
+  name: Player vulpkanine
+  parent: BaseMobVulpkanin
+  id: MobVulpkanin
+  components:
+  - type: CombatMode
+    canDisarm: true
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: hugging-success-generic
+    interactSuccessSound: /Audio/Effects/thudswoosh.ogg
+    messagePerceivedByOthers: hugging-success-generic-others
+  - type: MindContainer
+    showExamineInfo: true
+  - type: Input
+    context: "human"
+  - type: Vocal
+    wilhelm: "/Audio/SpaceLabs/Voice/Vulpkanin/Vulpkanin_scream.ogg"
+    sounds:
+      Male: MaleHuman
+      Female: FemaleHuman
+      Unsexed: FemaleHuman
+  - type: MobMover
+  - type: InputMover
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 1.0
+    damageRecovery:
+      types:
+        Asphyxiation: -1.0
+  - type: Alerts
+  - type: Actions
+  - type: Eye
+  - type: CameraRecoil
+  - type: Examiner
+  - type: CanHostGuardian
+  - type: Faction
+    factions:
+    - NanoTrasen

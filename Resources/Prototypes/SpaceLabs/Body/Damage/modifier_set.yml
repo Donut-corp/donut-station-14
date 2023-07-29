@@ -1,0 +1,6 @@
+- type: damageModifierSet
+  id: Vulpkanin
+  coefficients:
+    Blunt: 1.20
+    Slash: 1.20
+    Piercing: 1.20

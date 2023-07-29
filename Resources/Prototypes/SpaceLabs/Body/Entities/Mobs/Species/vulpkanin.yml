@@ -1,0 +1,56 @@
+- type: entity
+  save: false
+  name: Урист МакВуф
+  parent: BaseMobHuman
+  id: BaseMobVulpkanin
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Vulpkanin
+  - type: Hunger
+  - type: Thirst
+  - type: Icon
+    sprite: SpaceLabs/Mobs/Species/Vulplanin/parts.rsi
+    state: full
+  - type: Body
+    prototype: Vulpkanin
+    requiredLegs: 2
+  - type: Flammable
+    damage:
+      types:
+        Heat: 5
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      150: Critical
+      250: Dead
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Vulpkanin
+  - type: Temperature
+    heatDamageThreshold: 300
+    coldDamageThreshold: 165
+    currentTemperature: 310.15
+    specificHeat: 46
+    coldDamage:
+      types:
+        Cold : 0.05 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 0.25 #per second, scales with temperature & other constants
+  - type: MovementAlwaysTouching
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.7
+    baseSprintSpeed: 4.9
+
+- type: entity
+  save: false
+  name: Vulp Dummy
+  parent: MobHumanDummy
+  id: MobVulpkaninDummy
+  noSpawn: true
+  description: дурацкий вульп
+  components:
+  - type: HumanoidAppearance
+    species: Vulpkanin

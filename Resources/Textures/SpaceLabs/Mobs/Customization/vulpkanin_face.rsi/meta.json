@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "license": "©️ All rights reserved",
+  "copyright": "Made by RoriWiliamS, edited by Verslebas",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "face_vulpkanin_base",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+- type: marking
+  id: VulpkaninEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Vulpkanin ]
+  sprites:
+  - sprite:  SpaceLabs/Mobs/Customization/vulpkanin_ears.rsi
+    state: ears_vulpkanin_base
+
+
+- type: marking
+  id: VulpkaninTailBasic
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [ Vulpkanin ]
+  sprites:
+  - sprite:  SpaceLabs/Mobs/Customization/vulpkanin_tail.rsi
+    state: tail_vulpkanin_wagging_base
+
+- type: marking
+  id: VulpkaninSnoutBasic
+  bodyPart: Snout
+  markingCategory: Snout
+  speciesRestriction: [ Vulpkanin ]
+  sprites:
+  - sprite:  SpaceLabs/Mobs/Customization/vulpkanin_face.rsi
+    state: face_vulpkanin_base
